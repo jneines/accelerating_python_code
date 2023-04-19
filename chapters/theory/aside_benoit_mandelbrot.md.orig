@@ -1,0 +1,19 @@
+# The man behind it: Benoit Mandelbrot
+
+:::{figure} ./images/Benoit_Mandelbrot_at_TED_2010.jpeg
+:name: benoit_mandelbrot
+:height: 500px
+Benoit Mandelrot at a TED Talk 2010. Photo taken by Steve Jurvetson. CC BY 2.0
+:::
+
+Benoit Mandelbrot was a polish-born french-american mathematician.
+He studied mathematics both in France and the United States with a broad interest in various scientific topics.
+
+Being a fellow at IBM he had early access to significant computing ressources and was able to visualize his research in fractal geometries dealing with natural structures such as clouds and coastlines for example.
+
+The problem he was trying to solve was to find a way to describe the shape and length of these complex structures easily.
+
+The work based on these studies later led him to the discovery of a special set of numbers defined by a simple algorithm, which was able to create complex shapes with evermore detail to arise when zooming in.
+
+This set of numbers was named the `Mandelbrot set` and will serve as the base mathematical problem to be computed when trying to accelerate the Python code generating it.
+

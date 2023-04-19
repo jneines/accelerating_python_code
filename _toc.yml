@@ -1,0 +1,82 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: me
+- file: chapters/introduction/motivation
+  sections:
+    - file: chapters/introduction/what_we_are_not_covering_today
+    - file: chapters/introduction/what_we_will_be_addressing
+- file: chapters/theory/theory
+  sections:
+    - file: chapters/theory/chaos_and_fractals
+    - file: chapters/theory/aside_benoit_mandelbrot
+    - file: chapters/theory/the_mandelbrot_set
+    - file: chapters/theory/unpredictable_outcomes
+    - file: chapters/theory/bifurcation_and_chaos
+    - file: chapters/theory/extending_to_the_complex_plane
+    - file: chapters/theory/three_d_bifurcation
+- file: chapters/naive/naive_implementations
+  sections:
+    - file: chapters/naive/current_state
+    - file: chapters/naive/a_basic_implementation
+    - file: chapters/naive/the_wrap_into_a_function_trick_1
+    - file: chapters/naive/the_wrap_into_a_function_trick_2
+    - file: chapters/naive/benefit_from_symmetry_1
+    - file: chapters/naive/floating_point_precision_issues
+    - file: chapters/naive/benefit_from_symmetry_2
+    - file: chapters/naive/benchmarks
+    - file: chapters/naive/benchmark_results
+- file: chapters/optimized/optimized_implementations
+  sections:
+    - file: chapters/optimized/optimized_implementations_intro
+    - file: chapters/optimized/using_numpy
+    - file: chapters/optimized/using_numpy_array_code
+    - file: chapters/optimized/benchmark_results
+- file: chapters/jit/jit_based_implementations
+  sections:
+    - file: chapters/jit/jit_based_implementations_intro
+    - file: chapters/jit/using_pypy
+    - file: chapters/jit/using_numba
+    - file: chapters/jit/using_numba_naive
+    - file: chapters/jit/using_numba_vectorize
+    - file: chapters/jit/using_jax_intro
+    - file: chapters/jit/using_jax_code
+    - file: chapters/jit/benchmark_results
+- file: chapters/out_of_core/out_of_core_implementations
+  sections:
+    - file: chapters/out_of_core/out_of_core_intro
+    - file: chapters/out_of_core/out_of_core_preparations
+    - file: chapters/out_of_core/multiprocessing_intro
+    - file: chapters/out_of_core/multiprocessing_code
+    - file: chapters/out_of_core/concurrent_futures
+    - file: chapters/out_of_core/using_pytorch_intro
+    - file: chapters/out_of_core/using_pytorch_code
+    - file: chapters/out_of_core/benchmark_results
+- file: chapters/gpu/run_calculations_on_the_gpu
+  sections:
+    - file: chapters/gpu/run_calculations_on_the_gpu_intro
+    - file: chapters/gpu/using_cupy_intro
+    - file: chapters/gpu/using_cupy_code
+    - file: chapters/gpu/using_numba_intro
+    - file: chapters/gpu/using_numba_code
+    - file: chapters/gpu/using_pytorch
+    - file: chapters/gpu/benchmark_results
+- file: chapters/distributed/a_distributed_approach
+  sections:
+    - file: chapters/distributed/using_dask
+    - file: chapters/distributed/using_dask_locally
+    - file: chapters/distributed/prepare_dask_cluster
+    - file: chapters/distributed/using_dask_cluster
+    - file: chapters/distributed/the_dask_dashboard
+    - file: chapters/distributed/benchmark_results
+- file: chapters/summary/summary
+  sections:
+  - file: chapters/summary/tooling
+  - file: chapters/summary/hardware
+  - file: chapters/summary/recommendations_local
+  - file: chapters/summary/recommendations_gpu
+  - file: chapters/summary/recommendations_distributed
+- file: chapters/q_and_a/q_and_a.md
